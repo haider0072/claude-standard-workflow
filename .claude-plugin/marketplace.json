@@ -1,0 +1,17 @@
+{
+  "name": "standard-workflow-marketplace",
+  "owner": {
+    "name": "Ishaque Hassan"
+  },
+  "metadata": {
+    "description": "A disciplined verify-before-and-after engineering workflow for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "standard-workflow",
+      "source": "./plugins/standard-workflow",
+      "description": "Run any change through a mandatory 6-phase workflow: pre-verify → implement → post-verify → PR → merge-verify → housekeeping.",
+      "version": "1.0.0"
+    }
+  ]
+}
