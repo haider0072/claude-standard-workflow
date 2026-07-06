@@ -1,7 +1,8 @@
 {
   "name": "standard-workflow-marketplace",
   "owner": {
-    "name": "Ishaque Hassan"
+    "name": "Haider Ali Khan",
+    "url": "https://github.com/haider0072"
   },
   "metadata": {
     "description": "A disciplined verify-before-and-after engineering workflow for Claude Code."

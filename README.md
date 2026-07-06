@@ -21,7 +21,7 @@ It bakes in the habits that actually prevent outages: explain-and-confirm before
 In Claude Code:
 
 ```
-/plugin marketplace add ishaquehassan/claude-standard-workflow
+/plugin marketplace add haider0072/claude-standard-workflow
 /plugin install standard-workflow@standard-workflow-marketplace
 ```
 
@@ -33,7 +33,7 @@ Then use it:
 
 To update later: `/plugin marketplace update standard-workflow-marketplace`.
 
-> Replace `ishaquehassan/claude-standard-workflow` with your own `owner/repo` if you forked or renamed it.
+> Replace `haider0072/claude-standard-workflow` with your own `owner/repo` if you forked or renamed it.
 
 ### Option B — Single file (no plugin system)
 
@@ -43,7 +43,7 @@ Copy the command into your commands folder:
 # Personal (all your projects):
 mkdir -p ~/.claude/commands
 curl -o ~/.claude/commands/workflow.md \
-  https://raw.githubusercontent.com/ishaquehassan/claude-standard-workflow/main/plugins/standard-workflow/commands/workflow.md
+  https://raw.githubusercontent.com/haider0072/claude-standard-workflow/main/plugins/standard-workflow/commands/workflow.md
 
 # — or — per project (commit it so your team gets it):
 mkdir -p .claude/commands
