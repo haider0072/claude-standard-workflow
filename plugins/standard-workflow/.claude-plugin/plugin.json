@@ -1,6 +1,6 @@
 {
   "name": "standard-workflow",
-  "description": "A mandatory verify-before-and-after engineering workflow as a slash command. Ships the /workflow command that walks any code change through pre-verify → implement → post-verify → PR → merge-verify → housekeeping.",
+  "description": "A mandatory verify-before-and-after engineering workflow as a slash command. Ships the /ship command that walks any code change through pre-verify → implement → post-verify → PR → merge-verify → housekeeping.",
   "version": "1.0.0",
   "author": {
     "name": "Haider Ali Khan",

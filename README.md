@@ -1,8 +1,8 @@
-# Standard Workflow — a `/workflow` command for Claude Code
+# Standard Workflow — a `/ship` command for Claude Code
 
 A disciplined, project-agnostic engineering workflow packaged as a Claude Code slash command.
 
-Type `/workflow <what you're changing>` and Claude walks the change through six phases so nothing ships unverified:
+Type `/ship <what you're changing>` and Claude walks the change through six phases so nothing ships unverified:
 
 ```
 pre-verify → implement → post-verify → PR → merge-verify → housekeeping
@@ -28,7 +28,7 @@ In Claude Code:
 Then use it:
 
 ```
-/workflow map candidate name field for the legacy payload
+/ship map candidate name field for the legacy payload
 ```
 
 To update later: `/plugin marketplace update standard-workflow-marketplace`.
@@ -42,15 +42,15 @@ Copy the command into your commands folder:
 ```bash
 # Personal (all your projects):
 mkdir -p ~/.claude/commands
-curl -o ~/.claude/commands/workflow.md \
-  https://raw.githubusercontent.com/haider0072/claude-standard-workflow/main/plugins/standard-workflow/commands/workflow.md
+curl -o ~/.claude/commands/ship.md \
+  https://raw.githubusercontent.com/haider0072/claude-standard-workflow/main/plugins/standard-workflow/commands/ship.md
 
 # — or — per project (commit it so your team gets it):
 mkdir -p .claude/commands
-cp path/to/workflow.md .claude/commands/workflow.md
+cp path/to/ship.md .claude/commands/ship.md
 ```
 
-Then `/workflow` is available in that scope.
+Then `/ship` is available in that scope.
 
 ---
 
@@ -69,7 +69,7 @@ Then `/workflow` is available in that scope.
 
 ## Customize it
 
-The whole workflow lives in one Markdown file: [`plugins/standard-workflow/commands/workflow.md`](plugins/standard-workflow/commands/workflow.md). Fork the repo and edit that file to match your team's branch names, CI, environments, and conventions.
+The whole workflow lives in one Markdown file: [`plugins/standard-workflow/commands/ship.md`](plugins/standard-workflow/commands/ship.md). Fork the repo and edit that file to match your team's branch names, CI, environments, and conventions.
 
 ---
 
