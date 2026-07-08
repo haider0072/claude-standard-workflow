@@ -21,7 +21,7 @@
 
 <br/>
 
-**One command. Six phases. Zero "chhoti si change thi, verify ki zarurat nahi" outages.**
+**One command. Six phases.
 
 </div>
 
